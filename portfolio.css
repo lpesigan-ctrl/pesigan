@@ -374,7 +374,6 @@ footer p{
     will-change: transform;
 }
 
-/* key fix: move only halfway instead of full screen */
 @keyframes projectSlide{
     0%{
         transform: translateX(0);
@@ -402,7 +401,6 @@ footer p{
     align-items: center;
 }
 
-/* optional: make cards consistent size too */
 .details-container{
     width: 270px;
 }
