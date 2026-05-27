@@ -389,13 +389,13 @@ footer p{
 }
 
 .project-img{
-    width: 250px;          /* same width for all */
-    height: 250px;         /* same height for all */
-    object-fit: cover;     /* keeps image from stretching */
-    border-radius: 12px;   /* optional: smooth corners */
+    width: 250px;         
+    height: 250px;  
+    object-fit: cover;   
+    border-radius: 12px;  
 }
 
-/* keep containers aligned */
+
 .article-container{
     display: flex;
     justify-content: center;
