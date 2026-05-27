@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    background-color: rgb(160, 193, 251);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color: rgb(27, 2, 84);
+}
+
+.logo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    font-size:2rem;
+    color: rgb(27, 2, 84);
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+
+.profile-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.profile-content{
+    flex: 1;
+}
+
+nav,
+.nav-a{
+    display:flex;
+}
+
+nav{
+justify-content: space-around;
+align-items: center;
+height: 10vh;
+}
+
+.nav-a{
+gap: 2rem;
+list-style-type: none;
+font-size: 1.5rem;
+}
+
+body{
+font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+p {
+    color: rgb(27, 2, 84);
+}
+
+a,
+.btn{
+    transition: all 300ms ease;
+}
+
+a {
+    color:rgb(27, 2, 84);
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: rgb(38, 0, 255);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:rgb(181, 181, 181);
+}
+
+.logo:hover{
+   cursor:default;
+}
+
+h1{
+    color: rgb(27, 2, 84);
+}
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display: flex;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 70vh;
+    padding: 1.5rem;
+   flex: 1;
+   background: rgb(111, 159, 227);
+   border-radius: 2rem;
+   border: rgb(27, 2, 84) 0.1rem solid;
+   border-color: rgb(38, 0, 255);
+   text-align: center;
+}
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-container{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+}
+
+.section-text{
+    align-self: center;
+    text-align:center;
+}
+
+.section-text p {
+    font-weight:600;
+}
+
+.section-text-p1{
+    text-align: center;
+}
+
+.section-text-p1{
+   font-size: 1.25rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-style:italic;
+}
+
+#social-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon{
+    cursor:pointer;
+    height: 2rem;
+}
+
+.skills-sub-title{
+    color: rgb(27, 2, 84);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.details-container{
+   padding: 1.5rem;
+   width: 250px;
+   flex: 1;
+   background: rgb(111, 159, 227);
+   border-radius: 2rem;
+   border: rgb(27, 2, 84) 0.1rem solid;
+   border-color: rgb(38, 0, 255);
+   text-align: center;
+}
+
+.skills-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article.icon{
+    cursor: default;
+}
+
+.color-container{
+    border-color: rgb(38, 0, 255);
+    background: rgb(111, 159, 227);
+}
+
+.project-img{
+    border-radius: 2rem;
+    width:90%;
+    height:90%;
+}
+
+.project-title{
+    margin:1rem;
+    color: rgb(27, 2, 84);
+}
+
+.about-containers{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#contact{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height:70vh;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(38, 0, 255) 0.1rem solid;
+    border-color: rgb(38, 0, 255);
+    background: rgb(111, 159, 227);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon{
+    cursor: default;
+    height: 2rem;
+}
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(27, 2, 84);
+}
+
+.arrow{
+    position:absolute;
+    right:-5rem;
+    bottom: 2.5rem;
+}
+
+.scroll-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background: rgb(38, 0, 255);
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.scroll-top:hover{
+    background: rgb(143, 49, 148);
+    transform: scale(1.1);
+}
+
+.arrow-img{
+    width: 30px;
+    height: 30px;
+}
+
+.cursor{
+    animation: blink 0.7s infinite;
+    color: #000;
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+}
+
+.section-text-p2{
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+.profile{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    background: #004c97;
+
+    box-shadow: 0 0 25px rgba(0, 92, 183, 0.6);
+
+    padding: 1px;
+}
+
+#projects .projects-details-container{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+#projects .about-containers{
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+
+    animation: projectSlide 20s linear infinite;
+    will-change: transform;
+}
+
+/* key fix: move only halfway instead of full screen */
+@keyframes projectSlide{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+#projects .details-container{
+    flex: 0 0 auto;
+}
+
+.project-img{
+    width: 250px;          /* same width for all */
+    height: 250px;         /* same height for all */
+    object-fit: cover;     /* keeps image from stretching */
+    border-radius: 12px;   /* optional: smooth corners */
+}
+
+/* keep containers aligned */
+.article-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* optional: make cards consistent size too */
+.details-container{
+    width: 270px;
+}
