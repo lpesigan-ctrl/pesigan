@@ -6,7 +6,7 @@ function typeParagraph() {
     if (index < text.length) {
         document.getElementById("typing-paragraph").innerHTML += text.charAt(index);
         index++;
-        setTimeout(typeParagraph, 25); // typing speed
+        setTimeout(typeParagraph, 25);
     }
 }
 
