@@ -123,7 +123,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    height: 70vh;
+    height: 0vh;
     padding: 1.5rem;
    flex: 1;
    background: rgb(111, 159, 227);
